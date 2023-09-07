@@ -10,6 +10,7 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <Hi/>
         
         <Routes>
           <Route path='/news-seeker/' element={<News country={'in'} category={"general"} pageSize={6} apiKey={`e14924ccd91b44688321807adc1d0900`} page={1}/>}></Route>
