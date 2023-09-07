@@ -13,7 +13,7 @@ function App() {
         <Hi/>
         
         <Routes>
-          <Route path='/news-seeker/' element={<News country={'in'} category={"general"} pageSize={6} apiKey={`e14924ccd91b44688321807adc1d0900`} page={1}/>}></Route>
+          <Route path='/http://Nishant6825.github.io/news-seeker/' element={<News country={'in'} category={"general"} pageSize={6} apiKey={`e14924ccd91b44688321807adc1d0900`} page={1}/>}></Route>
           <Route exact path="/news-seeker/Business" element={<News  apiKey={'e14924ccd91b44688321807adc1d0900'} pageSize={6} country={'in'} category={'business'}/>}/>
           <Route exact path="/news-seeker/Entertainment" element={<News  apiKey={'e14924ccd91b44688321807adc1d0900'} pageSize={6} country={'in'} category={'entertainment'}/>}/>
           <Route exact path="/news-seeker/Health" element={<News  apiKey={'e14924ccd91b44688321807adc1d0900'} pageSize={6} country={'in'} category={'health'}/>}/>
